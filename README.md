@@ -104,7 +104,7 @@ Time to experiment.
 
 1. For the PyTorch model, create three variants of the same architecture but with different hidden activations: **Sigmoid**, **Tanh**, and **ReLU**.
 2. For each variant, run a forward pass on the **same** scaled test set.
-3. Plot histograms of the **hidden-layer pre-activations** (the values of $z^{(1)}$ before the activation function) for one batch. Use a 1×3 subplot.
+3. Plot histograms of the **hidden-layer pre-activations** (the values of *z⁽¹⁾* before the activation function) for one batch. Use a 1×3 subplot.
 4. Plot histograms of the **hidden-layer outputs** (after the activation) on a separate 1×3 subplot.
 5. In a markdown cell, answer:
    - For Sigmoid and Tanh, what fraction of the post-activation values fall in the saturated region (close to 0/1 for sigmoid, close to ±1 for tanh)?
